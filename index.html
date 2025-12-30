@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat UI</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="chat-app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-top">
+            <h2>Messages</h2>
+            <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="chat-list">
+            <div class="chat active">
+                <img src="https://i.pravatar.cc/45?img=11">
+                <div class="info">
+                    <h4>Arun</h4>
+                    <p>Typing...</p>
+                </div>
+                <span class="time">10:41</span>
+            </div>
+
+            <div class="chat">
+                <img src="https://i.pravatar.cc/45?img=32">
+                <div class="info">
+                    <h4>Priya</h4>
+                    <p>See you 👍</p>
+                </div>
+                <span class="time">09:30</span>
+            </div>
+
+            <div class="chat">
+                <img src="https://i.pravatar.cc/45?img=21">
+                <div class="info">
+                    <h4>Sneha</h4>
+                    <p>Okay done</p>
+                </div>
+                <span class="time">Yesterday</span>
+            </div>
+
+            <div class="chat">
+                <img src="https://i.pravatar.cc/45?img=56">
+                <div class="info">
+                    <h4>Rahul</h4>
+                    <p>okk</p>
+                </div>
+                <span class="time">Mon</span>
+            </div>
+
+            <div class="chat">
+                <img src="https://i.pravatar.cc/45?img=44">
+                <div class="info">
+                    <h4>Anu</h4>
+                    <p>😂😂😂</p>
+                </div>
+                <span class="time">Sun</span>
+            </div>
+
+            <div class="chat">
+                <img src="https://i.pravatar.cc/45?img=7">
+                <div class="info">
+                    <h4>Kiran</h4>
+                    <p>Project submission...</p>
+                </div>
+                <span class="time">Sat</span>
+            </div>
+        </div>
+
+    </aside>
+    <main class="chat-area">
+
+        <header class="chat-header">
+            <div class="user">
+                <img src="https://i.pravatar.cc/45?img=11">
+                <div>
+                    <h3>Arun</h3>
+                    <span class="status online">Online</span>
+                </div>
+            </div>
+
+            <div class="actions">
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </header>
+
+        <section class="messages">
+            <div class="msg received">
+                UI romba clean ah iruku 👌
+                <span class="meta">10:38</span>
+            </div>
+
+            <div class="msg sent">
+                Thanks machi 🔥
+                <span class="meta">10:39 ✓✓</span>
+            </div>
+
+            <div class="msg received typing">
+                <span></span><span></span><span></span>
+            </div>
+        </section>
+
+        <footer class="chat-input">
+            <i class="fa-regular fa-face-smile"></i>
+            <i class="fa-solid fa-paperclip"></i>
+            <input type="text" placeholder="Type a message">
+            <button><i class="fa-solid fa-paper-plane"></i></button>
+        </footer>
+
+    </main>
+
+</div>
+
+</body>
+
+</html>
+
